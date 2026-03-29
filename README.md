@@ -101,3 +101,6 @@ The project follows this workflow: -
 Both files use the same project logic, but they have different purposes:
 - `analysis.py`    -> automation and reproducibility
 - `analysis.ipynb` -> explanation, presentation, and portfolio display
+
+## Author
+Sanjeevani Rajpurohit
