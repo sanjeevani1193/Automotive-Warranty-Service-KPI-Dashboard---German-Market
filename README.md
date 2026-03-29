@@ -95,12 +95,11 @@ The project follows this workflow: -
 
 
 ## Difference between `analysis.py` and `analysis.ipynb`
-```markdown
-## analysis.py vs analysis.ipynb
 
 Both files use the same project logic, but they have different purposes:
 - `analysis.py`    -> automation and reproducibility
 - `analysis.ipynb` -> explanation, presentation, and portfolio display
 
 ## Author
+
 Sanjeevani Rajpurohit
