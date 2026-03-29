@@ -26,7 +26,7 @@ The project uses three synthetic datasets generated in Python:
 - **service_visits**: service history including service ID, vehicle ID, service date, service type, resolution days, and service cost
 - **warranty_claims**: warranty claim records including claim ID, vehicle ID, claim date, issue category, claim status, claim cost, approved amount, and resolution days
 
-This data was generated to simulate a realistic automotive after-sales scenario for KIA's German market and then loaded into SQLite for analysis. :contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7}
+This data was generated to simulate a realistic automotive after-sales scenario for KIA's German market and then loaded into SQLite for analysis.
 
 ## Methodology
 
@@ -36,7 +36,7 @@ The project follows this workflow: -
    Python was used to generate vehicle, service, and warranty claim data.
 
 2. **Database loading**  
-   The CSV files were loaded into a SQLite database, and indexes were created to support query performance. :contentReference[oaicite:8]{index=8}
+   The CSV files were loaded into a SQLite database, and indexes were created to support query performance. 
 
 3. **Data quality validation**  
    Raw data records were checked for claims and service visits occurring outside the warranty period.
@@ -44,7 +44,7 @@ The project follows this workflow: -
 4. **Cleaned analytical views**  
    SQL views were created to keep only valid in-warranty claims and service visits:
    - `valid_warranty_claims`
-   - `valid_service_visits` :contentReference[oaicite:9]{index=9}
+   - `valid_service_visits`
 
 5. **KPI analysis**  
    SQL queries were used to calculate KPIs such as:
@@ -58,7 +58,7 @@ The project follows this workflow: -
    - average resolution days
    - service type cost breakdown
    - average service cost by model
-   - approved warranty cost per vehicle by model :contentReference[oaicite:10]{index=10}
+   - approved warranty cost per vehicle by model
 
 6. **Visualization and reporting**  
    Python and Matplotlib were used to generate charts, while a Jupyter notebook was used to present the step-by-step analysis.
