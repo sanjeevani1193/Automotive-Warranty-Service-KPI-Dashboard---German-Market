@@ -1,10 +1,20 @@
 # Automotive Warranty & Service Analysis for German Market
 
+
 ## Project Overview
 
-In this project, I have analyzed synthetic automotive warranty claim and service visit data for an automotive company like KIA in the German market using SQL, SQLite, Python, and Jupyter Notebook. 
+An end-to-end **automotive warranty and service analytics project** using Python, SQL, SQLite, and Jupyter Notebook to investigate operational performance and warranty cost drivers in a simulated German automotive market.
 
-I was able to identify warranty cost drivers, claim patterns, service cost behavior, and operational trends across vehicle models, issue categories, service types, and regions. This project combines multi-table automotive data into a simple end-to-end analytics workflow -> from data generation and SQL-based KPI definitions to Python-based visualizations and reporting.
+### 🚀 Key Highlights
+
+- **Data Engineering:** Generated, cleaned, validated, and integrated 3 interconnected synthetic datasets covering vehicles, service visits, and warranty claims.
+- **SQL Analytics:** Developed analytical views to identify valid in-warranty claims and service activity.
+- **KPI Reporting:** Analyzed claim approval rates, warranty costs, resolution times, repeat issues, and claims per 100 vehicles.
+- **Business Insights:** Investigated cost drivers and operational patterns across geographic regions, vehicle models, and issue categories.
+- **Visualization:** Built reproducible Python analysis scripts and Jupyter notebooks with Matplotlib visualizations.
+
+**Tech Stack:** Python · SQL · SQLite · pandas · Matplotlib · Jupyter Notebook
+
 
 ## Motivation
 
