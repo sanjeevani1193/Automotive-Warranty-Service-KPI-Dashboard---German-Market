@@ -89,19 +89,32 @@ The project follows this workflow: -
 
 - Regional differences in claim concentration may point to differences in vehicle mix, usage patterns, or service processes.
 
+
 ## How to Reproduce
 
-1. Clone the repository.
-2. Install the required Python packages:
-   ```bash
-   pip install -r requirements.txt
-3. Generate the synthetic datasets:
-    python generate_data.py
-4. Load the CSV files into SQLite:
-    python load_to_sqlite.py
-5. Run the main analysis script:
-    python analysis.py
-6. Open 'analysis.ipynb' to review the analysis interactively and step by step.
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Generate synthetic datasets
+```bash
+python generate_data.py
+```
+
+### 3. Load data into SQLite
+```bash
+python load_to_sqlite.py
+```
+
+### 4. Run the analysis
+```bash
+python analysis.py
+```
+
+### 5. Explore the results
+
+Open `analysis.ipynb` in Jupyter Notebook to review the analysis, visualizations, and findings interactively.
 
 
 ## Difference between `analysis.py` and `analysis.ipynb`
